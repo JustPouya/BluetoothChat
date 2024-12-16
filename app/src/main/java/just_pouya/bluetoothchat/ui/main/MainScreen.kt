@@ -154,8 +154,8 @@ fun DevicesList(modifier: Modifier=Modifier, devices: List<DeviceApp>, onItemCli
             Text(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(16.dp)
-                    .clickable { onItemClicked.invoke(it.macAddress) },
+                    .clickable { onItemClicked.invoke(it.macAddress) }
+                    .padding(16.dp),
                 text = it.name
             )
             HorizontalDivider()
