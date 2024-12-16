@@ -25,6 +25,7 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import dagger.hilt.android.AndroidEntryPoint
 import just_pouya.bluetoothchat.nav.Screen
+import just_pouya.bluetoothchat.ui.chat.ChatScreen
 import just_pouya.bluetoothchat.ui.theme.BluetoothChatTheme
 import just_pouya.bluetoothchat.ui.main.MainScreen
 
@@ -115,10 +116,5 @@ private fun MainGraph(navController: NavHostController) {
             )
         }
     }
-}
-
-@Composable
-fun ChatScreen(contactName: String, onBackClicked: () -> Boolean) {
-
 }
 
