@@ -10,6 +10,10 @@ Here are some screenshots of the application in action:
 |-------------------------------------|-------------------------------------|
 | ![Main Screen](screenshots/main.jpg) | ![Chat Screen](screenshots/chat.jpg) |
 
+## Download
+You can download the latest version of the app here:
+
+[Download APK](https://github.com/JustPouya/BluetoothChat/releases/download/1.0.1/Bluetooth.Chat.apk)
 
 ## Features
 - **Bluetooth Chat**: Send and receive messages seamlessly between devices using Bluetooth.
